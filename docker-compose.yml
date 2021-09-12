@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app:
+    image: julia:1.6.2
+    volumes:
+      - ./:/root
+    working_dir: /root
